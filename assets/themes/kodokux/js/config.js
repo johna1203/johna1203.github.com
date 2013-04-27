@@ -1,6 +1,6 @@
 window._skel_config = {
 	preset: 'standard',
-	prefix: '{{ ASSET_PATH }}/css/style',
+	prefix: '/assets/themes/kodokux/css/style',
 	resetCSS: true
 };
 
