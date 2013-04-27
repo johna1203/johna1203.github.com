@@ -1,46 +1,41 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Oh! My JK
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<div id="content">
+    <article class="last">
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+        <h2>Left Sidebar</h2>
 
-## Update Author Attributes
+        <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+            Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+            Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+            consequat etiam lorem ipsum dolor sit amet nullam.</p>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+        <h3>More intriguing information</h3>
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
+            justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem
+            felis,
+            ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum
+            imperdiet
+            vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis
+            tempor.
+            Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam
+            convallis
+            rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non
+            sapien.
+            Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
+            Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+        <p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
+            quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
+            Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor
+            urna,
+            fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
+            Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
+            Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+    </article>
+</div>
