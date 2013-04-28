@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Kodokuman</title>
+    {% include head.html %}
+</head>
+<body class="homepage">
+
+<div id="header-wrapper">
+    {% include header.html %}
+</div>
+
+<div id="main-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="12u skel-cell-mainContent">
+                <!-- Content -->
+                <div id="content">
+                    <article class="last">
+                        {{ content }}
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer-wrapper">
+    {% include footer.html %}
+</div>
+
+</body>
+</html>

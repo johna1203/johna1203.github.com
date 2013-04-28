@@ -2,10 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://johna1203.github.io/
+url: http://192.168.100.100:4000/
 title: Kodokuman blog
 author: johna1203
 
+twitter: johna1203
+facebook: johnathan.david
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
