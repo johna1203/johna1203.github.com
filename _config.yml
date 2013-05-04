@@ -1,27 +1,12 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+title: Kodokuman Blog (johna1203)
+url: http://www.kodokuman.com
 
-url: http://johna1203.github.io/
-title: Kodokuman blog
-author: johna1203
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title
 
-twitter: johna1203
-facebook: johnathan.david
+lsi: true
+paginate: 20
 
-projects :
- - name: Magedox
-   url : http://johna1203.github.io/Magedox
- - name: Delifi
-   url : https://github.com/Kodokux/Mage-Delifi
- - name: Kodokux-debug
-   url : https://github.com/Kodokux/kodokux-debug
-
-
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-# Google Analytics
-#google_analytics_tracking_id: UA-XXXXXXXX-X
+exclude:
+- CNAME
