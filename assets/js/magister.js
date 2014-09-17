@@ -7,7 +7,6 @@ var section_show_time = 1300;
 
 // jQuery stuff
 jQuery(document).ready(function ($) {
-
     // Switch section
     $("a", '.mainmenu').click(function () {
         if (!$(this).hasClass('active')) {
@@ -22,4 +21,28 @@ jQuery(document).ready(function ($) {
         }
         return false;
     });
+
+    var count = 18;
+    var nowcount = 1;
+
+    var chageImage = function () {
+        var imgPath = '/assets/images/' + nowcount + '.jpg';
+        nowcount++;
+        var el = $('.bgdiv');
+
+        el.fadeOut('slow', function () {
+            $('.bgdiv').css('backgroundImage', 'url(/assets/images/img' + nowcount + '.jpg)');
+            el.fadeIn('slow');
+        });
+
+
+        if (nowcount > count) {
+            nowcount = 1;
+        }
+        setTimeout(chageImage, 8000);
+    };
+
+    setTimeout(chageImage, 8000);
+
+
 });
