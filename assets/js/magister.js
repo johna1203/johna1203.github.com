@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
-    var count = 18;
+    var count = 21;
     var nowcount = 1;
 
     var chageImage = function () {
