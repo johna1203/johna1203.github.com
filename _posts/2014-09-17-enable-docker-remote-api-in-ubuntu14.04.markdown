@@ -11,7 +11,7 @@ categories: Docker Ubuntu
 
 $ sudo vi /etc/init/docker.io.conf
 
-DOCKER_OPTS='-H tcp://0.0.0.0:4243'
+DOCKER_OPTS='-H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock -d'
 
 ```
 
